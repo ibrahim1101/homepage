@@ -27,3 +27,6 @@
 @media(max-width:700px){.contact-form{margin-top:31px;padding:23px}.contact-copy .contact-direct{font-size:13px;margin-top:22px}}
 
 .contact-consent input{padding:0;border:0;border-radius:2px}.form-privacy{font-size:11px;line-height:1.65;color:#6d7a72;margin:12px 0}.form-privacy a{color:#496d5a;text-decoration:underline;text-underline-offset:2px}
+
+/* Reveal the contact form on request. */
+.contact-reveal{width:min(100%,480px)}.contact-reveal .contact-toggle{display:inline-flex;gap:28px;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;padding:16px 21px;font-size:14px;font-weight:600}.contact-toggle::-webkit-details-marker{display:none}.contact-toggle:focus-visible{outline:2px solid #496d5a;outline-offset:4px}.contact-reveal[open] .contact-form{margin-top:20px}.contact-reveal[open] .contact-toggle svg{transform:rotate(45deg)}@media(max-width:700px){.contact-reveal{width:100%;margin-top:25px}.contact-reveal[open] .contact-form{margin-top:20px}}
